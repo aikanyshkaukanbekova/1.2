@@ -11,7 +11,11 @@ int main()
     cout << "a=" << a << "b=" << b;
     if (a > b)
     {
-        cout << "\n a>b";
+        cout << "\n a<b";
+    }
+    else
+    {
+        cout << "\n a>b"; 
     }
 }
 
